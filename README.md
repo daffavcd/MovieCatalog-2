@@ -1,16 +1,13 @@
-# jobsheet9
+# HTTP API
 
-A new Flutter project.
+## List View
+<img src="/images/1.png" title="Screenshot 1"/>
 
-## Getting Started
+## Detail View after clicked
+<img src="/images/2.png" title="Screenshot 2"/>
 
-This project is a starting point for a Flutter application.
+## Finnance App
 
-A few resources to get you started if this is your first Flutter project:
+This project is my first practice using API from themoviedb with flutter language,
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+You can leave a comment or ask for contributor if you want to help me grow. Thanks 
