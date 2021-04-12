@@ -6,7 +6,7 @@
 ## Detail View after clicked
 <img src="/images/2.png" title="Screenshot 2"/>
 
-## Finnance App
+## HTTP API App
 
 This project is my first practice using API from themoviedb with flutter language,
 
