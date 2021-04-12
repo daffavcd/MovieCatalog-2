@@ -31,6 +31,41 @@ class MovieDetail extends StatelessWidget {
                 child: Image.network(path),
               ),
               Container(
+                  child: Text("Release Date : " + movie.releaseDate,
+                      style: TextStyle(fontSize: 16, color: Colors.black)),
+                  alignment: Alignment.centerLeft,
+                  padding: EdgeInsets.only(
+                    left: 16,
+                    right: 16,
+                  )),
+              Container(
+                  child: Text(
+                      "Vote Average : " + movie.voteAverage.toString() + "/10",
+                      style: TextStyle(fontSize: 16, color: Colors.black)),
+                  alignment: Alignment.centerLeft,
+                  padding: EdgeInsets.only(
+                    left: 16,
+                    right: 16,
+                  )),
+              Container(
+                  child: Text(
+                      "Language : " + movie.original_language.toString(),
+                      style: TextStyle(fontSize: 16, color: Colors.black)),
+                  alignment: Alignment.centerLeft,
+                  padding: EdgeInsets.only(
+                    left: 16,
+                    right: 16,
+                  )),
+              Container(
+                  child: Text("Overview : ",
+                      style: TextStyle(fontSize: 16, color: Colors.black)),
+                  alignment: Alignment.centerLeft,
+                  margin: const EdgeInsets.only(top: 10.0),
+                  padding: EdgeInsets.only(
+                    left: 16,
+                    right: 16,
+                  )),
+              Container(
                   child: Text(movie.overview),
                   padding: EdgeInsets.only(
                     left: 16,

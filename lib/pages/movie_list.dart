@@ -43,7 +43,16 @@ class _MovieListState extends State<MovieList> {
               color: Colors.white,
               elevation: 2.0,
               child: ListTile(
-                leading: Image.network(imgPath + movies[position].posterPath),
+                leading: Container(
+                    width: 50.0,
+                    height: 50.0,
+                    decoration: new BoxDecoration(
+                        shape: BoxShape.circle,
+                        image: new DecorationImage(
+                          fit: BoxFit.fill,
+                          image: new NetworkImage(
+                              imgPath + movies[position].posterPath),
+                        ))),
                 title: Text(movies[position].originalTitle),
                 subtitle:
                     Text('Rating = ' + movies[position].voteAverage.toString()),
